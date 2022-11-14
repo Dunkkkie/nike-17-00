@@ -39,10 +39,53 @@ body {
 
 /* procuts */
 /* krossi */
+.items {
+    background: #FFFFFF;
+    border: 1px solid #A0A0A0;
+    padding: 0 15px 15px 15px;
+}
+.main__items {
+    display: flex;
+    gap: 30px;
 
-
-
-
+}
+.item__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 18px;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.item__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6A6A6A;
+}
+.item__btn {
+    background: #DFC900;
+    border-radius: 3px;
+    padding: 11px 90px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #050505;
+    font-weight: 700;
+}
+.item__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item__price {
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.items__img {
+    width: 328px;
+}
 /* krossi */
 /* just */
 
